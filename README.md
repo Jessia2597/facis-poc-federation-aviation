@@ -69,7 +69,7 @@ Once the ORCE container is running, you can proceed with Step 1 to import the fl
 
 ## **Step 1 — Import the Flow and Apply Required Configurations**
 
-This step covers importing [`flows.full.json`](./flows/flows.full.json) into your **ORCE engine**, setting the **uibuilder URL**, and configuring the **MongoDB** connection used by the [**0-Integration Flow**](https://github.com/eclipse-xfsc/facis-fap1-implementation/blob/main/flows/tabs/0-Integration%20Flow.json) (and other MongoDB nodes).
+This step covers importing [`flows.full.json`](./flows/flows.full.json) into your **ORCE engine**, setting the **uibuilder URL**, and configuring the **MongoDB** connection used by the [**0-Integration Flow**](https://github.com/eclipse-xfsc/facis-poc-federation-aviation/blob/main/flows/tabs/0-Integration%20Flow.json) (and other MongoDB nodes).
 
 ---
 
@@ -94,7 +94,7 @@ Locate the ✅ **UI flow** and open the **uibuilder node**.
 
 ### **1.3 Configure MongoDB Connection**
 
-In the ✅ [**0-Integration Flow**](https://github.com/eclipse-xfsc/facis-fap1-implementation/blob/main/flows/tabs/0-Integration%20Flow.json), open the **MongoDB node** → click the **pencil icon** next to the connection field and fill in:
+In the ✅ [**0-Integration Flow**](https://github.com/eclipse-xfsc/facis-poc-federation-aviation/blob/main/flows/tabs/0-Integration%20Flow.json), open the **MongoDB node** → click the **pencil icon** next to the connection field and fill in:
 
 ```
 Username: yourUsername
